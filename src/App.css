@@ -1,0 +1,55 @@
+.girlimg {
+  max-width: 400px;
+  width: 500px;
+}
+
+.image-section {
+  margin-right: 20rem;
+}
+
+.faqs {
+  padding: 0 15%;
+}
+
+.cardSection{
+  padding: 2% 9%;
+}
+
+.moreThan{
+  padding: 0 15%;
+}
+
+
+@media (max-width: 1023px) {
+  .girlimg {
+    width: 350px !important;
+    margin-bottom: 0px !important;
+    position: static;
+    top: 0 !important;
+    left: 0 !important;
+  }
+  .image-section {
+    margin-right: 0;
+    margin-top: 2rem;
+  }
+
+  .patternImg {
+    display: none;
+  }
+
+  .faqs {
+    padding: 0 !important;
+  }
+
+  .cardSection{
+    padding: 0 !important;
+  }
+
+  .moreThan{
+    padding: 0 !important;
+  }
+
+  .imageCar{
+    width: 100% !important;
+  }
+}
